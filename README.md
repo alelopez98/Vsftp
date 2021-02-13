@@ -9,3 +9,4 @@ Aqui vamos a realizar un estudio de vsftpd , veremos la comparativa con proftpd 
 4. [Casos practicos](https://github.com/alelopez98/Vsftpd/blob/main/CasosPracticos.md)  
 ## REFERENCIAS
 - [Redeszone](https://www.redeszone.net/tutoriales/servidores/vsftpd-configuracion-servidor-ftp/)
+- [Ubunlog](https://ubunlog.com/vsftpd-instalar-un-servidor-ftp-ubuntu/)
