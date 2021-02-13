@@ -30,6 +30,9 @@ El fichero de configuracion se encuentra en /etc y es:
 ```
 /etc/vsftpd.conf
 ```
+Las directivas mas importantes son:
+- hola
+- hola2
 ### E) Acceso al servidor FTP: usuarios del sistema
 ### F) Acceso al servidor FTP: anónimo tiene solo permiso de lectura en su directorio de trabajo
 ### G) Acceso al servidor FTP: anónimo tiene permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
