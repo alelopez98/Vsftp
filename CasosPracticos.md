@@ -54,7 +54,8 @@ Ahora tocaremos el fichero de configuración de vsftpd.conf, pondremos listen en
 ![imagen](imagenes/vsftpdconf.JPG)  
  Y añadiremos la siguiente linea  
  ![imagen](imagenes/vsftpdconf1.JPG)  
- - Finalmente vemos como nos hemos conectado
+ - Finalmente nos conectamos desde filezilla  
+ ![imagen](imagenes/conexionfilezilla.JPG) 
 ### F) Acceso al servidor FTP: anónimo tiene solo permiso de lectura en su directorio de trabajo
 ### G) Acceso al servidor FTP: anónimo tiene permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
 ### H) Acceso al servidor FTP: Creación de usuarios virtuales.
