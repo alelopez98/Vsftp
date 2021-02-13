@@ -2,17 +2,17 @@
 ![imagen](imagenes/aversion.JPG) 
 ### B) Usuarios Creados en la Instalación
 Vamos a ver que usuarios y grupos se han creado.
-* Con el comando:  
+Con el comando:  
 ```
 $ cat /etc/passwd
 ```
-* Vemos que se ha creado:  
+Vemos que se ha creado:  
 ![imagen](imagenes/usuario.jpg)  
-* Con el comando:  
+Con el comando:  
 ```
 $ cat /etc/group
 ```
-* vemos que se ha creado:  
+vemos que se ha creado:  
 ![imagen](imagenes/grupo.jpg)  
 ### C) Servicio Asociado
 * El servicio es vsftpd.service
