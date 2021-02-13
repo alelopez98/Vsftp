@@ -12,8 +12,7 @@ $ cat /etc/passwd
 ```
 $ cat /etc/group
 ```
-   * vemos que se ha creado:  
-
+* vemos que se ha creado:  
 ![imagen](imagenes/grupo.jpg)  
 ### C) Servicio Asociado
 * El servicio es vsftpd.service
