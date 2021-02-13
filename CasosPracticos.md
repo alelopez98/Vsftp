@@ -1,6 +1,17 @@
 ### A) Version Instalada
+![imagen](imagenes/a.version.jpg) 
 ### B) Usuarios Creados en la Instalación
 ### C) Servicio Asociado
+El servicio es vsftpd.service
+```
+$ systemctl status vsftpd
+```
+```
+$ systemctl restart vsftpd
+```
+```
+$ systemctl stop vsftpd
+```
 ### D) Ficheros de Configuración
 ### E) Acceso al servidor FTP: usuarios del sistema
 ### F) Acceso al servidor FTP: anónimo tiene solo permiso de lectura en su directorio de trabajo
