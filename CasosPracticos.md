@@ -1,7 +1,7 @@
 ### A) Version Instalada
 ![imagen](imagenes/aversion.JPG) 
 ### B) Usuarios Creados en la Instalación
-* Vamos a ver que usuarios y grupos se han creado.
+Vamos a ver que usuarios y grupos se han creado.
 * Con el comando:  
 ```
 $ cat /etc/passwd
