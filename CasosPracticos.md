@@ -1,5 +1,5 @@
 ### A) Version Instalada
-![imagen](imagenes/a.version.jpg) 
+![imagen](imagenes/aversion.jpg) 
 ### B) Usuarios Creados en la Instalación
 ### C) Servicio Asociado
 El servicio es vsftpd.service
