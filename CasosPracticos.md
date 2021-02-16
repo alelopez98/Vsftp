@@ -68,12 +68,28 @@ systemctl restart vsftpd
 Y desde filezilla hacemos las comprobaciones.
 Primero nos conectamos.  
   
-  
  ![imagen](imagenes/anonimo2.jpg)   
  
 Intentamos subir un archivo, y como vemos no nos deberia dejar.  
   
  ![imagen](imagenes/anonimo3.jpg) 
-### G) Acceso al servidor FTP: anónimo tiene permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
+### G) Acceso al servidor FTP: anónimo tiene permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.  
+Vamos a darle permisos al directorio ftp  
+```
+chown ftp:nogroup /srv/ftp
+```
+Luego creamos la carpeta sugerencias que tambien le daremos los permisos
+```
+chown ftp:nogroup /srv/ftp/sugerencias
+```
+A continuacion editamos el fichero /etc/vsftpd.conf y añadimos las siguientes directivas:  
+  
+ ![imagen](imagenes/anonimo6.jpg)  
+Ahora entramos en filezilla desde el host y comprobamos que puede acceder y desde ftp no puede subir archivos
+  
+![imagen](imagenes/anonimo4.jpg)  
+ Pero desde sugerencias si  
+   
+![imagen](imagenes/anonimo5.jpg)
 ### H) Acceso al servidor FTP: Creación de usuarios virtuales.
 ### I) Acceso seguro al servidor FTP
