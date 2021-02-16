@@ -11,3 +11,4 @@ Aqui vamos a realizar un estudio de vsftpd , veremos la comparativa con proftpd 
 - [Redeszone](https://www.redeszone.net/tutoriales/servidores/vsftpd-configuracion-servidor-ftp/)
 - [Ubunlog](https://ubunlog.com/vsftpd-instalar-un-servidor-ftp-ubuntu/)
 - [Directivas](https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-ftp-vsftpd-conf.html)
+- [Usuarios Virtuales](https://askubuntu.com/questions/575523/how-to-setup-virtual-users-for-vsftpd-with-access-to-a-specific-sub-directory)
