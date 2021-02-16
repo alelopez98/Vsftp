@@ -125,3 +125,9 @@ apt install openssl
 A continuacion editamos el fichero /etc/vsftpd.conf  
   
 ![imagen](imagenes/ssl.jpg)  
+Luego creamos la clave con openssl.  
+  
+![imagen](imagenes/ssl2.jpg)  
+Finalmente nos conectamos con el usuario que sea y nos aparecera el certificado.  
+  
+![imagen](imagenes/ssl3.jpg) 
