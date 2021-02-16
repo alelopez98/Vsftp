@@ -118,3 +118,10 @@ useradd --home /home/vsftpd --gid nogroup -m --shell /bin/bash vsftpd
   
 ![imagen](imagenes/comprobacion.jpg) 
 ### I) Acceso seguro al servidor FTP
+Primero instalamos openssl.  
+```
+apt install openssl 
+```
+A continuacion editamos el fichero /etc/vsftpd.conf  
+  
+![imagen](imagenes/ssl.jpg)  
