@@ -91,5 +91,30 @@ Ahora entramos en filezilla desde el host y comprobamos que puede acceder y desd
  Pero desde sugerencias si  
    
 ![imagen](imagenes/anonimo5.jpg)
-### H) Acceso al servidor FTP: Creación de usuarios virtuales.
+### H) Acceso al servidor FTP: Creación de usuarios virtuales.  
+Para este paso primero tenemos que instalar el siguiente paquete.  
+```
+apt install libpam-pwdfile
+```
+1) Creamos un fichero donde vamos a guardar los usuarios heidi y pedro  
+  
+![imagen](imagenes/virtuales.jpg)  
+2) En el fichero /etc/pam.d/vsftpd comentamos la linea por defecto y añadimos nuestra configuracion.  
+  
+![imagen](imagenes/virtuales2.jpg)  
+3) Con el siguiente comando creamos los usuarios virtuales.  
+```
+useradd --home /home/vsftpd --gid nogroup -m --shell /bin/bash vsftpd
+```
+4) Dentro del directorio /etc/vsftpd_user_conf creamos los ficheros pedro y heidi con la siguiente configuracion
+- heidi
+![imagen](imagenes/heidi.jpg) 
+- Pedro  
+![imagen](imagenes/pedro.jpg)  
+5) Finalmente creamos los directorios heidi y pedro en /srv/ftp y les damos los permisos  
+  
+![imagen](imagenes/finalvirtuales.jpg)  
+6) Entramos como heidi para comprobar.  
+  
+![imagen](imagenes/comprobacion.jpg) 
 ### I) Acceso seguro al servidor FTP
