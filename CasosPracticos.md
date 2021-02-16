@@ -107,8 +107,8 @@ apt install libpam-pwdfile
 useradd --home /home/vsftpd --gid nogroup -m --shell /bin/bash vsftpd
 ```
 4) Dentro del directorio /etc/vsftpd_user_conf creamos los ficheros pedro y heidi con la siguiente configuracion
-- heidi
-![imagen](imagenes/heidi.jpg) 
+- heidi  
+![imagen](imagenes/heidi.jpg)  
 - Pedro  
 ![imagen](imagenes/pedro.jpg)  
 5) Finalmente creamos los directorios heidi y pedro en /srv/ftp y les damos los permisos  
