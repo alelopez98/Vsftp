@@ -57,16 +57,22 @@ Ahora tocaremos el fichero de configuración de vsftpd.conf, pondremos listen en
  - Finalmente nos conectamos desde filezilla  
  ![imagen](imagenes/conexionfilezilla.JPG) 
 ### F) Acceso al servidor FTP: anónimo tiene solo permiso de lectura en su directorio de trabajo 
-Vamos a editar el fichero /etc/vsftpd.conf. Cambiamos la siguiente linea a YES. Para permitir acceder como usuario anonimo.  
- ![imagen](imagenes/anonimo.jpg) 
+Vamos a editar el fichero /etc/vsftpd.conf. Cambiamos la siguiente linea a YES. Para permitir acceder como usuario anonimo.    
+
+ ![imagen](imagenes/anonimo.jpg)    
+   
 Luego reiniciamos el servicio
 ```
 systemctl restart vsftpd
 ```
 Y desde filezilla hacemos las comprobaciones.
-Primero nos conectamos.
- ![imagen](imagenes/anonimo2.jpg) 
-Intentamos subir un archivo, y como vemos no nos deberia dejar.
+Primero nos conectamos.  
+  
+  
+ ![imagen](imagenes/anonimo2.jpg)   
+ 
+Intentamos subir un archivo, y como vemos no nos deberia dejar.  
+  
  ![imagen](imagenes/anonimo3.jpg) 
 ### G) Acceso al servidor FTP: anónimo tiene permiso de escritura en el directorio sugerencias, que es un subdirectorio de su directorio raíz.
 ### H) Acceso al servidor FTP: Creación de usuarios virtuales.
